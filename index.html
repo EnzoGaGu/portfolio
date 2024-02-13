@@ -33,8 +33,20 @@
               }
 
               .svg-container-big {
-                width: 250px; 
+                width: 200px; 
                 height: auto; /* Maintain aspect ratio */
+              }
+
+
+            .svg-container-contact {
+                width: 35px; 
+                height: auto; /* Maintain aspect ratio */
+                
+            }
+
+              .project-images{
+                object-fit: cover;
+                object-position: 100%;
               }
         </style>
     </head>
@@ -45,14 +57,17 @@
         <div class="white-background">
             <header class="d-flex justify-content-center py-3 shadow-md">
               <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Presentación</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Conocimientos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
+                <li class="nav-item"><a href="#Presentacion" class="nav-link active" aria-current="page">Presentación</a></li>
+                <li class="nav-item"><a href="#Conocimientos" class="nav-link">Conocimientos</a></li>
+                <li class="nav-item"><a href="#Proyectos" class="nav-link">Proyectos</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">¡Contáctame!</a></li>
               </ul>
             </header>
-          </div>
-    
+          
+        </div>
+        
+
+        <a name="Presentacion"></a>
         <div class="container my-5 px-0">
             <div class="d-sm-flex justify-content-center white-background gap-md-5 gap-xxl-0 row p-5 pb-0 pe-lg-0 pt-lg-0 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-7 p-xxl-5 p-0 pt-lg-3">
@@ -82,9 +97,18 @@
             </div>
         </div>
         
+        <div class="container my-5 px-0">
+            <div class="d-sm-flex justify-content-center white-background gap-md-5 gap-xxl-0 row p-5 pb-0 pe-lg-0 pt-lg-0 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-10 p-lg-5 text-center p-0 pb-5">
+                    <p class="mb-0 fs-4">Estudiante de último semestre de Tecnólogo en Informática. En búsqueda de una vinculación laboral. Alta capacidad para manejarse dentro del sector, así como para adecuarse a equipos
+                        de trabajo y ambientes laborales diversos. Amplios conocimientos en Java y C++.</p>
+                </div>
+            </div>
+        </div>
+
  
          
-  
+        <a name="Conocimientos"></a>
         <nav class="navbar navbar-expand-lg navbar-light py-0 bg-light shadow-md">
             <div class="container-fluid white-background py-4">
                 <div class="navbar-brand mx-auto">
@@ -98,8 +122,8 @@
         <div class="d-flex flex-wrap flex-column">
             <div class="container my-5 col-xl-7 col-sm-9 mx-xl-4 p-0 shadow-lg">
                 <div class="d-flex justify-content-center row p-5 white-background text-center text-xl-start rounded-3">
-                    <h1 class="text-body-emphasis pb-3 px-0">Desarrollo Web</h1>
-                    <div class="d-inline-flex justify-content-center d-xl-block pb-3 col-xl-8 gap-4 col-10 px-5 ps-xl-0 pt-3">
+                    <h1 class="text-body-emphasis text-center pb-3 px-0">Desarrollo Web</h1>
+                    <div class="d-inline-flex align-self-center justify-content-center d-xl-block pb-3 col-xl-8 gap-4 col-10 px-5 ps-xl-0 pt-3">
                         <ul class="p-0">
                             <div class="list-group-item d-block lead">
                                 <span class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2" style="background-color: #f06529; width: 50px; height: 50px;">
@@ -141,7 +165,7 @@
                             </div>
                         </ul>
                     </div>
-                    <div class="d-flex justify-content-center col-xl-4 col-12 offset-lg-1 p-0 m-lg-0 mt-lg-3 mb-sm-4 overflow-hidden">
+                    <div class="d-flex justify-content-center align-self-center col-xl-4 col-12 offset-lg-1 p-0 m-lg-0 mt-lg-3 mb-sm-4 overflow-hidden">
                         <div class="white-background svg-container-big"><img class="w-100" src="./img/svg/web-dev.svg" alt="Photo by Diego PH" width="720px"></div>
                     </div>
                 </div>
@@ -151,11 +175,11 @@
 
             <div class="container my-5 col-xl-7 col-sm-9 mx-xl-4 p-0 shadow-lg align-self-end">
                 <div class="d-flex justify-content-center row p-5 white-background text-center text-xl-end rounded-3">
-                    <h1 class="text-body-emphasis pb-4">Propósito General</h1>
-                    <div class="d-flex justify-content-center col-xl-4 col-12 offset-lg-1 p-0 m-lg-0 mt-lg-3 mb-sm-4 overflow-hidden">
+                    <h1 class="text-body-emphasis text-center pb-4">Propósito General</h1>
+                    <div class="d-flex justify-content-center align-self-center col-xl-4 col-12 offset-lg-1 p-0 m-lg-0 mt-lg-3 mb-sm-4 overflow-hidden">
                         <div class="white-background svg-container-big ms-xl-5"><img class="w-100" src="./img/svg/oop.svg" alt="Photo by Diego PH" width="720px"></div>
                     </div>
-                    <div class="d-inline-flex justify-content-center d-xl-block col-xl-8 gap-4 col-10 px-5 pe-xl-0 ps-xl-0 pt-3">
+                    <div class="d-inline-flex align-self-center justify-content-center d-xl-block col-xl-8 gap-4 col-10 px-5 pe-xl-0 ps-xl-0 pt-3">
                         <ul class="p-0">
                             <div class="list-group-item lead">
                                 C/C++
@@ -203,8 +227,8 @@
 
             <div class="container my-5 col-xl-7 col-sm-9 mx-xl-4 p-0 shadow-lg">
                 <div class="d-flex justify-content-center row p-5 white-background text-center text-xl-start rounded-3">
-                    <h1 class="text-body-emphasis pb-3 px-0">Manejo de Base de Datos</h1>
-                    <div class="d-inline-flex justify-content-center d-xl-block pb-4 gap-4 col-10 col-xl-8 px-5 ps-xl-0 pt-3">
+                    <h1 class="text-body-emphasis pb-3 text-center px-0">Manejo de Base de Datos</h1>
+                    <div class="d-inline-flex align-self-center justify-content-center d-xl-block pb-4 gap-4 col-10 col-xl-8 px-5 ps-xl-0 pt-3">
                         <ul class="p-0">
                             <div class="list-group-item lead">
                                 <span class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2" style="background-color: #f06529; width: 50px; height: 50px;">
@@ -222,7 +246,7 @@
                             </div>
                         </ul>
                     </div>
-                    <div class="d-flex justify-content-center col-xl-4 col-12 offset-lg-1 p-0 m-lg-0 mt-lg-3 mb-sm-4 overflow-hidden">
+                    <div class="d-flex justify-content-center align-self-center col-xl-4 col-12 offset-lg-1 p-0 m-lg-0 mt-lg-3 mb-sm-4 overflow-hidden">
                         <div class="white-background svg-container-big"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/></svg></div>
                     </div>
                 </div>
@@ -231,7 +255,7 @@
         </div>
 
 
-
+        <a name="Proyectos"></a>
         <nav class="navbar navbar-expand-lg navbar-light py-0 bg-light shadow-md mb-5">
             <div class="container-fluid white-background py-4">
                 <div class="navbar-brand mx-auto">
@@ -241,43 +265,132 @@
         </nav>
      
 
-        <div class="mx-2 row mb-2">
+        <div class="mx-1 row mb-2">
             <div class="col-md-6">
-              <div class="row g-0 border white-background rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row g-0 shadow-lg border white-background rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div class="col p-4 d-flex flex-column position-static">
                   <strong class="d-inline-block mb-2 text-primary-emphasis text-end">Desarrollo Web</strong>
                   <h3 class="mb-3">TinDog</h3>
 
                   <p class="card-text">Pequeña web realizada con Bootstrap para bootcamp de Web Development por Udemy.</p>
-                  <a href="https://enzogagu.github.io/TinDog/" class="icon-link gap-1 icon-link-hover stretched-link">
+                  <a href="https://enzogagu.github.io/TinDog/" class="icon-link gap-1 icon-link-hover stretched-link ">
                     Abrir
-                    <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                   </a>
                 </div>
-                <div class="col-auto d-none d-lg-block">
-                    <img class="object-fit-fill" src="./img/TinDog.png" width="250px" height="250px" object-fit="cover">    
+                <div class="col-auto d-none d-xl-block">
+                    <img src="./img/TinDog.png" alt="TinDog image" width="200px" class="project-images" height="250px"> 
                 </div>
               </div>
             </div>
 
             <div class="col-md-6">
-                <div class="row g-0 border white-background rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col-auto d-none d-lg-block">
-                        <img src="./img/TinDog.png" width="250px" height=auto>    
+                <div class="row g-0 shadow-lg border white-background rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col-auto d-none d-xl-block">
+                        <img src="./img/Project_Zero.png" width="200px" class="project-images" height="250px">    
                     </div>
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary-emphasis text-end">Desarrollo de Videojuegos</strong>
                         <h3 class="mb-3">Project Zero</h3>
     
-                        <p class="card-text">Test de movimiento para juego de plataformas 2D basado en el personaje Zero de Megaman X, hecho en Unity.</p>
-                        <a href="https://enzogagu.github.io/TinDog/" class="icon-link gap-1 icon-link-hover stretched-link">
+                        <p class="card-text">Test de movimiento para juego de plataformas 2D utilizando al personaje Zero de Megaman X, hecho en Unity.</p>
+                        <a href="https://enzogagu.github.io/TinDog/" alt="Project Zero image" class="icon-link icon-link-hover stretched-link">
                         Ver en GitHub
-                        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                         </a>
                     </div>
                 </div>
-              </div>
+            </div>
+
+
+
+            <div class="col-md-6">
+                <div class="row g-0 shadow-lg border white-background rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary-emphasis text-end">Programación en Python</strong>
+                        <h3 class="mb-3">NoSQL</h3>
+      
+                        <p class="card-text">Proyecto final para la materia Base de Datos NoSQL de la carrera Tecnólogo en Informática. Se utilizaron MongoDB, Postman y Jenkins.</p>
+                    <a href="https://github.com/EnzoGaGu/NoSQL" class="icon-link gap-1 icon-link-hover stretched-link ">
+                      Ver en GitHub
+                    </a>
+                  </div>
+                  <div class="col-auto d-none d-xl-block">
+                      <img src="./img/NoSQL.png" alt="NoSQL image" width="200px" class="project-images" height="250px"> 
+                  </div>
+                </div>
+            </div>
+  
+            <div class="col-md-6">
+                <div class="row g-0 shadow-lg border white-background rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col-auto d-none d-xl-block">
+                        <img src="./img/Saving.png" width="200px" class="project-images" height="250px">    
+                    </div>
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary-emphasis text-end">Programación en C++</strong>
+                        <h3 class="mb-3">Proyecto Saving</h3>
+      
+                        <p class="card-text">Proyecto personal aún en proceso. Pequeño programa hecho en C++ cuya funcionalidad apunta a ser un sustituto del Cloud Saving de Steam.</p>
+                        <a href="https://github.com/EnzoGaGu/Proyecto-Saving" class="icon-link icon-link-hover stretched-link">
+                        Ver en GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+        <a name="Proyectos"></a>
+        <nav class="navbar navbar-expand-lg navbar-light py-0 bg-light shadow-md mb-0">
+            <div class="container-fluid white-background py-4">
+                <div class="navbar-brand mx-auto">
+                    <h2 class="display-5">Contacto</h2>
+                </div>
+            </div>
+        </nav>
+        <footer class="pb-5 pt-4 mb-0 mt-0 white-background">
+            <ul class="nav justify-content-evenly border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <div class="list-group-item lead">
+                        <a href="https://github.com/EnzoGaGu" class="d-lg-inline-flex flex-lg-row d-flex flex-column align-items-center justify-content-center">
+                            <span class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2" style="background-color: #2DBA4E; width: 55px; height: 55px;">
+                                <div class="svg-container-contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></div>
+                            </span>
+                            GitHub
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="list-group-item lead">
+                        <a href="linkedin.com/in/enzo-gularte-rodriguez/" class="d-lg-inline-flex flex-lg-row d-flex flex-column align-items-center justify-content-center">
+                            <span class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2" style="background-color: #0E76A8; width: 55px; height: 55px;">
+                                <div class="svg-container-contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></div>
+                            </span>
+                            LinkedIn
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="list-group-item lead">
+                        <a href="mailto:enzogagu@gmail.com" class="d-lg-inline-flex flex-lg-row d-flex flex-column align-items-center justify-content-center">
+                            <span class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2" style="background-color: 	#c71610; width: 55px; height: 55px;">
+                                <div class="svg-container-contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg></div>
+                            </span>
+                            Gmail
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="list-group-item lead">
+                        <a href="https://api.whatsapp.com/send?phone=59891423235" class="d-lg-inline-flex flex-lg-row d-flex flex-column align-items-center justify-content-center">
+                            <span class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2" style="background-color: #25D366; width: 55px; height: 55px;">
+                                <div class="svg-container-contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></div>
+                            </span>
+                            WhatsApp
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <p class="text-center text-body-secondary">¡Gracias!</p>
+        </footer>
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
